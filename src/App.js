@@ -27,19 +27,19 @@ const App = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-950 flex flex-col items-center justify-center p-4">
       <div className="text-center max-w-md w-full">
-        <div className="text-6xl font-bold text-gray-700 dark:text-gray-400 mb-2">301</div>
+        <div className="text-6xl font-bold text-gray-700 dark:text-gray-300 mb-2">301</div>
 
-        <h1 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-6">
+        <h1 className="text-2xl font-semibold text-gray-900 dark:text-gray-200 mb-6">
           {appName} has permanently moved
         </h1>
 
         {counter === 0 ? (<p>Redirecting...</p>) : (<p>Redirecting in {counter} seconds...</p>)}
 
-        <a href={appUrl} className="inline-block mt-4 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white dark:text-gray-100 font-medium rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+        <a href={appUrl} className="inline-block mt-4 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white dark:text-gray-200 font-medium rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
           Go to new {appName}
         </a>
 
-        <p className="mt-4 text-sm text-gray-500 dark:text-gray-600">
+        <p className="mt-4 text-sm text-gray-500 dark:text-gray-500">
           If you're not redirected automatically, click the button above.
         </p>
       </div>
