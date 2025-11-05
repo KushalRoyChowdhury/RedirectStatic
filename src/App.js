@@ -25,7 +25,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-950 dark:text-white flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen bg-white dark:bg-gray-950 flex flex-col items-center justify-center p-4">
       <div className="text-center max-w-md w-full">
         <div className="text-6xl font-bold text-gray-700 dark:text-gray-300 mb-2">301</div>
 
