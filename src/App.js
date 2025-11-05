@@ -25,11 +25,11 @@ const App = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen bg-white dark:bg-gray-950 dark:text-white flex flex-col items-center justify-center p-4">
       <div className="text-center max-w-md w-full">
-        <div className="text-6xl font-bold text-gray-700 mb-2">301</div>
+        <div className="text-6xl font-bold text-gray-700 dark:text-gray-100 mb-2">301</div>
 
-        <h1 className="text-2xl font-semibold text-gray-900 mb-6">
+        <h1 className="text-2xl font-semibold text-gray-900 dark:text-gray-50 mb-6">
           {appName} has permanently moved
         </h1>
 
@@ -39,7 +39,7 @@ const App = () => {
           Go to new {appName}
         </a>
 
-        <p className="mt-4 text-sm text-gray-500">
+        <p className="mt-4 text-sm text-gray-500 dark:text-gray-200">
           If you're not redirected automatically, click the button above.
         </p>
       </div>
